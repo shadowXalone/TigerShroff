@@ -323,13 +323,21 @@ Delete A Lot Of Messages From Groups!
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+    AUTOFILTER_TXT = """➤ 𝐇𝐞𝐥𝐩: <b>𝐀𝐮𝐭𝐨-𝐅𝐢𝐥𝐭𝐞𝐫</b>
 
-<b>NOTE:</b>
-1. Make me the admin of your channel if it's private.
-2. make sure that your channel does not contains camrips, porn and fake files.
-3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
+𝙰𝚞𝚝𝚘𝚏𝚒𝚕𝚝𝚎𝚛 𝚒𝚜 𝚊 𝚏𝚎𝚊𝚝𝚞𝚛𝚎 𝚒𝚗 𝚠𝚑𝚒𝚌𝚑 𝙸 𝚛𝚎𝚜𝚙𝚘𝚗𝚍 𝚝𝚘 𝚝𝚑𝚎 𝚚𝚞𝚎𝚛𝚒𝚎𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚐𝚛𝚘𝚞𝚙 𝚠𝚒𝚝𝚑 𝚝𝚑𝚎 𝙼𝚘𝚟𝚒𝚎/𝚂𝚎𝚛𝚒𝚎𝚜 𝚏𝚒𝚕𝚎𝚜 𝚜𝚝𝚘𝚛𝚎𝚍 𝚒𝚗 𝚖𝚢 𝙳𝚊𝚝𝚊𝚋𝚊𝚜𝚎 🌩️.
+
+➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 & 𝐔𝐬𝐚𝐠𝐞:
+
+➢ /autofilter on/off: 𝖳𝗈 𝗍𝗎𝗋𝗇 𝖮𝖭 𝖺𝗇𝖽 𝗍𝗎𝗋𝗇 𝖮𝖥𝖥 𝗍𝗁𝖾 𝖠𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖥𝖾𝖺𝗍𝗎𝗋𝖾.
+➢ /autofilter: 𝖳𝗈 𝖼𝗁𝖾𝖼𝗄 𝗍𝗁𝖾 𝖼𝗎𝗋𝗋𝖾𝗇𝗍 𝗌𝖾𝗍𝗍𝗂𝗇𝗀𝗌.
+➢ /settings: 𝖳𝗈 𝖼𝗁𝖺𝗇𝗀𝖾 𝗍𝗁𝖾 𝖠𝗎𝗍𝗈𝖥𝗂𝗅𝗍𝖾𝗋 𝗌𝖾𝗍𝗍𝗂𝗇𝗀𝗌 𝗈𝖿 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉.
+
+➤ 𝐍𝐨𝐭𝐞:
+
+❍ 𝖠𝖽𝖽 𝗆𝖾 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉 & 𝗆𝖺𝗄𝖾 𝗆𝖾 𝖺𝗇 𝖠𝖽𝗆𝗂𝗇. 𝖠𝗇𝖽 𝗍𝗎𝗋𝗇 𝗈𝗇 𝖺𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋.
+
+𝖬𝖺𝖽𝖾 𝖻𝗒 @Rexer0BOT_BOT."""
     CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
