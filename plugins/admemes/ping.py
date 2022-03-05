@@ -9,7 +9,9 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
 ALIVE = "ചത്തിട്ടില്ല മുത്തേ ഇവിടെ തന്നെ ഉണ്ട്.. നിനക്ക് ഇപ്പൊ എന്നോട് ഒരു സ്നേഹവും ഇല്ല. കൊള്ളാം.. നീ പാഴെ പോലെയേ അല്ല മാറിപോയി..😔 ഇടക്ക് എങ്കിലും ചുമ്മാ ഒന്ന് Start ചെയ്തു നോക്ക്..🙂" 
-HELP = "buttons = [[
+HELP = "@Client.on_message(filters.command("help"))
+async def help(client, message):
+   buttons = [[
             InlineKeyboardButton('Mᴀɴᴜᴇʟ Fɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('Aᴜᴛᴏ Fɪʟᴛᴇʀ', callback_data='autofilter'),
             InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴs', callback_data='coct')
