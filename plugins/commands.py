@@ -592,7 +592,7 @@ async def help(client, message):
             InlineKeyboardButton('Sᴛᴀᴛᴜs', callback_data='stats'),
             InlineKeyboardButton('Cʟᴏsᴇ ✗', callback_data='close_data')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
+        reply_markup = InlineKeyboardMarkup_buttons
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.HELP_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
