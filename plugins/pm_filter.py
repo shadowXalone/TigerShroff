@@ -1679,7 +1679,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply_sticker(sticker = "CAACAgQAAxkBAAEOUeNiGYtYDTJVoH0GKinSO_qWcvpQrgACVQADjRtGJ-yIezShSzCbIwQ")
+        k = await msg.reply_sticker(sticker = "CAACAgEAAxkBAAJcpWIeJ9iMDv20YrtE7XYHmAKFfijfAAKpAQACaoVYR-nYQs538CyTHgQ")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -1691,7 +1691,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply_sticker(sticker="CAACAgQAAxkBAAJQzmIZo8u3pHF8ulLUGT7dUeIjAAF78QACVQADjRtGJ-yIezShSzCbHgQ",
+    await msg.reply_sticker(sticker=CAACAgEAAxkBAAJcpWIeJ9iMDv20YrtE7XYHmAKFfijfAAKpAQACaoVYR-nYQs538CyTHgQ",
     reply_markup=InlineKeyboardMarkup(btn))
 
 async def manual_filters(client, message, text=False):
