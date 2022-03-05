@@ -599,4 +599,3 @@ async def help(client, message):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        
